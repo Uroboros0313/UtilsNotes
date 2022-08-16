@@ -14,7 +14,7 @@
 
 - 添加更改        
 `git add .`             
-`git commit -m "your_comments"`\
+`git commit -m "your_comments"`       
 `git status`
 
 - 推送远程分支       
