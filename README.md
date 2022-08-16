@@ -1,2 +1,2 @@
 # Notes
-note-taking
+Some Learning Notes
