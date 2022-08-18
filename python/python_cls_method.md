@@ -57,8 +57,11 @@ class BaseClass:
 
 base_inst = BaseClass()
 print(base_inst.baseprop) # 512.0
-base_inst.baseattr = 2048
+base_inst.baseprop = 2048
 print(base_inst.baseprop) # 1024.0
-del base_inst.baseattr
-print(base_inst.baseprop) # 'BaseClass' object has no attribute 'baseattr'
+del base_inst.baseprop
+try:
+    print(base_inst.baseprop) # 'BaseClass' object has no attribute 'baseattr'
+except AttributeError:
+    print('BaseClass object has no attribute baseattr')
 ```
