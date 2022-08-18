@@ -25,3 +25,11 @@ wsl --import docker-desktop <your-dir>\docker-desktop <your-dir>\docker-desktop.
     清理磁盘，删除关闭的容器、无用的数据卷和网络，以及dangling镜像（即无tag的镜像）。
 - docker system prune -a       
     删除**将没有容器使用Docker镜像** + docker system prune
+
+# docker容器与宿主机进行文件传输 
+
+- 复制文件到container:       
+`docker cp <main machine path> <your container name/id>:<file path>`
+
+- 从container复制文件到宿主机:    
+`docker cp <your container name/id>:<file path> <main machine path>`

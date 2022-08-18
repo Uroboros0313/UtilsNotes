@@ -1,4 +1,13 @@
 # 类方法
+## 基础属性  
+1. 返回类名         
+`self.__class__.__name__`
+
+1. 返回实例属性      
+`self.__dict__`
+
+1. 返回类的Docstring    
+`self.__doc__`
 
 ## 抽象类与抽象方法
 
@@ -9,7 +18,7 @@
 2. 继承抽象基类的子类需要重写基类中的所有@abstracmethod装饰的抽象方法，否则不能实例化
 3. 抽象基类的作用是定义统一的接口，例如一个支付场景下利用多个app进行支付，则可以定义一个抽象基类，子类重写所有基类的抽象方法
 
-```
+```python
 from abc import abstractmethod,ABC
 
 class BaseClass(ABC):
@@ -38,7 +47,7 @@ bad_instance = BadInstanceClass() # 无法实例化
 
 - property属性有三种访问方式，并分别对应了三个被@property、@方法名.setter、@方法名.deleter修饰的方法
 
-```
+```python
 class BaseClass:
     def __init__(self):
         self.baseattr = 1024
