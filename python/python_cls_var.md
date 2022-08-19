@@ -1,0 +1,115 @@
+# 类 
+## 类变量与实例变量
+
+### **类变量**
+
+在类里定义的变量，在类中使用，不需要实例化。
+
+1. **访问**:通过`<类名>.<类变量>`就可使用，实例对象可通过`<实例>.<类变量>`进行使用，在类内部函数中使用`<self>.<类变量>`
+
+2. **修改**: 不能通过`<实例>.<类变量>`修改，修改使用`<类名>.<类变量>`
+
+### **实例变量**
+
+实例变量在构造函数中定义时，可以直接通过实例变量调用。如果在其他类方法中定义，需要先调用该类方法，声明该实例变量。
+
+```python
+class BaseCls:
+    '''
+Docstring: Cls Variables
+    '''
+    cls_var = 'cls variable example' # 类变量
+
+    def __init__(self):
+        self.pre_def_mem_var = 'pre_def member variable example'
+    # 实例变量
+    def cls_var_print(self):
+        print(self.cls_var)
+
+    def declare_mem_var(self):
+        self.post_def_mem_var = 'post_def member variable example'
+
+case = BaseCls()
+print(f"call cls_var from Cls: {BaseCls.cls_var}")
+print(f"cal cls_var from instance: {case.cls_var}")
+print(f"call cls_var form instance func:")
+case.cls_var_print()
+print(f"call mem_var from instance:{case.pre_def_mem_var}")    
+```
+### 共享范围
+变量使用的共享范围是定义为哪一种变量的依据。
+
+- 类变量是实例对象中共享。反过来说如果不需要实例对象之间共享，不要定义为类变量。
+  
+- 实例变量是实例对象自身范围使用，在类的函数内可以共享。
+
+
+### 查找顺序   
+
+当使用`<对象>.<变量>`访问时候，顺序是先找对象实例变量，如果找不到就找类变量。
+
+```python
+class BaseCounter:
+    shared_counter = 0
+    def __init__(self):
+        self.private_counter = 0
+
+    def add(self,value):
+        self.private_counter += value
+    
+    def add_shared(self,value):
+        self.shared_counter += value
+
+counter_1 = BaseCounter()
+counter_2 = BaseCounter()
+counter_3 = BaseCounter()
+
+counter_1.add(10)
+counter_2.add(20)
+counter_3.add(30)
+print("*" * 10)
+print(counter_1.private_counter)
+print(counter_2.private_counter)
+print(counter_3.private_counter)
+
+print("*" * 10)
+BaseCounter.shared_counter += 10
+print(counter_1.shared_counter)
+print(counter_2.shared_counter)
+print(counter_3.shared_counter)
+
+print("*" * 10)
+# 实例化以后无法修改,因此add_shared方法只是创建了一个实例变量self.shared_counter = BaseCounter.shared_counter + value
+counter_1.add_shared(10) 
+counter_2.add_shared(20)
+counter_3.add_shared(30)
+print(counter_1.shared_counter)
+print(counter_2.shared_counter)
+print(counter_3.shared_counter)
+print(BaseCounter.shared_counter)
+
+"""
+**********
+10
+20
+30
+**********
+10
+10
+10
+**********
+20
+30
+40
+10
+"""
+```
+## 查看  
+1. 返回类名         
+`self.__class__.__name__`
+
+1. 返回实例属性      
+`self.__dict__`
+
+1. 返回类的Docstring    
+`self.__doc__`

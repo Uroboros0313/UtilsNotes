@@ -1,13 +1,4 @@
 # 类
-## 基础属性  
-1. 返回类名         
-`self.__class__.__name__`
-
-1. 返回实例属性      
-`self.__dict__`
-
-1. 返回类的Docstring    
-`self.__doc__`
 
 # 魔术方法
 
