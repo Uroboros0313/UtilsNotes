@@ -1,6 +1,26 @@
-# 类方法
+# 类的方法
+## 类方法(@classmethod)
 
-## 抽象类与抽象方法
+
+## 静态方法(@staticmethod)
+装饰器`@staticmethod`修饰静态方法，入参不能存在`cls`和`self`。
+
+静态方法既不依赖实例对象也不依赖于类，所以可以通过`类对象`和`实例对象`进行调用，需要注意的是在静态方法中无法使用实例属性和方法。
+
+- 作用:功能与类较为独立的方法可以使用静态方法
+```python
+class BaseCls:
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def add(num_1, num_2):
+        return num_1 + num_2
+case = BaseCls
+print(case.add(1,1)) # 2
+print(BaseCls.add(1,1)) # 2
+```
+## 抽象类与抽象方法(@abstractmethod)
 
 - ABC:抽象基类             
 - abstractmethod:抽象方法         
@@ -30,7 +50,7 @@ bad_instance = BadInstanceClass() # 无法实例化
 
 ```
 
-## property
+## Property(@property)
 
 - **property**:一种用起来像是使用的实例属性一样的特殊属性，对应于某个方法,需要调用方法的方式类似于调用属性时，在一个方法加上@property
 
