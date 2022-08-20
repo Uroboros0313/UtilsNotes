@@ -17,6 +17,11 @@ Learning Notes of some utils
 
 # 记
 
+`<2022-08-20>`      
+- Python类的魔术方法——完成
+  - [文档](https://github.com/Ouroboros-csl/Notes/blob/master/python/1.2.python%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95.md)
+  - [code](https://github.com/Ouroboros-csl/Notes/blob/master/python/test_pycls_func.ipynb) 
+
 `<2022-08-18>`     
 在一家AI初创公司实习一个月出头了，最近一段时间在NLP,推荐算法,图算法当中纠结了一段时间，这段时间的学习遇到非常大的瓶颈。同时工作上和之前的算法实习生加算子和跑测的工作内容也大相径庭。
 
@@ -26,8 +31,8 @@ Learning Notes of some utils
 
 本仓库主要总结工作中遇到的工程方面的问题，同时也是查缺补漏，建立起从工具-算法-项目的完整的知识体系，同时更新个人学习路径。
 
-`<2022-08-20>`      
-- Python类的魔术方法——完成
+
+  
 
 
 
