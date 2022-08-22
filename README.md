@@ -16,9 +16,14 @@ Learning Notes of some utils
 - [中文版PEP 8规范简单总结](https://zhuanlan.zhihu.com/p/110405756)
 
 # 记
+`<2022-08-22>`
+
+- Python类的三类方法
+  - [文档]()
+  - [code]()
 
 `<2022-08-20>`      
-- Python类的魔术方法——完成
+- Python类的魔术方法
   - [文档](https://github.com/Ouroboros-csl/Notes/blob/master/python/1.2.python%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95.md)
   - [code](https://github.com/Ouroboros-csl/Notes/blob/master/python/test_pycls_func.ipynb) 
 
