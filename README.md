@@ -26,7 +26,8 @@ Learning Notes of some utils
 
 发烧了两天👾，今晚退烧了。  
 
-`<2022-08-20>`      
+`<2022-08-20>`  
+    
 - Python类的魔术方法
   - [文档](https://github.com/Ouroboros-csl/UtilsNotes/blob/master/python/1.2.python%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95.md)
   - [code](https://github.com/Ouroboros-csl/UtilsNotes/blob/master/code/1.2.pycls_func.ipynb) 
