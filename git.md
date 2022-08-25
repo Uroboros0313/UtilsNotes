@@ -19,3 +19,7 @@
 
 - 推送远程分支       
 `git push origin <your_branch_name>`
+
+- 查看当前用户名与邮箱          
+`git config --user.name`        
+`git config --user.email`
