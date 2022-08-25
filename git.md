@@ -21,5 +21,9 @@
 `git push origin <your_branch_name>`
 
 - 查看当前用户名与邮箱          
-`git config --user.name`        
-`git config --user.email`
+`git config user.name`        
+`git config user.email`
+
+- 修改当前用户名与邮箱          
+`git config --global user.name <new_name>`        
+`git config --global user.email <new_email>`
