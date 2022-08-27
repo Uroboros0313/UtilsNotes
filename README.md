@@ -12,8 +12,13 @@ Learning Notes of some utils
 
 # 文档 
 
+## Python code style
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [中文版PEP 8规范简单总结](https://zhuanlan.zhihu.com/p/110405756)
+
+## Python type hints
+
+- [PEP 484 - Type Hints](https://peps.python.org/pep-0484/)
 
 # 历史记录
 `<2022-08-25>`
@@ -24,7 +29,7 @@ Learning Notes of some utils
 
 - Doc
 
-暂时结束一个比较棘手的项目(某种意义上只做了一半)，准备开发一个库，确认最后一个月的方向，刚好用到这些知识👺。
+暂时结束一个比较棘手的项目(某种意义上只做了一半)。接下来的工作是开发一个基础类型的库，刚好用到这些知识👺。除此之外确认最后一个月的方向是时序相关的任务啦。
 
 `<2022-08-22>`
 
