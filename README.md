@@ -34,7 +34,7 @@ Learning Notes of some utils
   
 `<2022-08-25>`
 
-- 增加Python的metaclass
+- Python的metaclass
   - [文档](https://github.com/Uroboros0313/UtilsNotes/blob/master/python/1.4.python%E5%85%83%E7%B1%BB.md)
   - [code](https://github.com/Uroboros0313/UtilsNotes/blob/master/code/1.4.py_metaclass.ipynb)
 
@@ -44,7 +44,7 @@ Learning Notes of some utils
 
 `<2022-08-22>`
 
-- 增加Python类的三类方法
+- Python类的三类方法
   - [文档](https://github.com/Uroboros0313/UtilsNotes/blob/master/python/1.3.python%E7%B1%BB%E7%9A%84%E4%B8%89%E7%B1%BB%E6%96%B9%E6%B3%95.md)
   - [code](https://github.com/Uroboros0313/UtilsNotes/blob/master/code/1.3.pycls_method.ipynb)
 
