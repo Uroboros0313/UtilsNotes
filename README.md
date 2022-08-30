@@ -11,18 +11,17 @@ Learning Notes of some utils
 3. Open md file and preview
 
 # 文档 
+## Python teaching material
+- Fluent Python(流畅的Python)
+  - [项目地址](https://github.com/fluentpython)
+  - [英文版](https://www.fluentpython.com/)
 
 ## Python code style
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 - [中文版PEP 8规范简单总结](https://zhuanlan.zhihu.com/p/110405756)
 
-## Python type hints
-
+## Others
 - [PEP 484 - Type Hints](https://peps.python.org/pep-0484/)
-
-## Python teaching material
-- Fluent Python(流畅的Python)
-  - [项目地址](https://github.com/fluentpython)
 
 # 历史记录
 `<2022-08-30>`
