@@ -24,6 +24,11 @@ Learning Notes of some utils
 - [PEP 484 - Type Hints](https://peps.python.org/pep-0484/)
 
 # 历史记录
+`<2022-08-31>`
+- python序列数据类型        
+  - [文档](https://github.com/Uroboros0313/UtilsNotes/blob/master/python/0.3.python序列数据结构)
+  - [code](https://github.com/Uroboros0313/UtilsNotes/blob/master/code/0.3.py_seq.ipynb)
+
 `<2022-08-30>`
 
 - 增加python metaclass的内容
