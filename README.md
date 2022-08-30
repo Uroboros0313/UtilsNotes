@@ -26,7 +26,7 @@ Learning Notes of some utils
 # 历史记录
 `<2022-08-31>`
 - python序列数据类型        
-  - [文档](https://github.com/Uroboros0313/UtilsNotes/blob/master/python/0.3.python序列数据结构)
+  - [文档](https://github.com/Uroboros0313/UtilsNotes/blob/master/python/0.3.python序列数据结构.md)
   - [code](https://github.com/Uroboros0313/UtilsNotes/blob/master/code/0.3.py_seq.ipynb)
 
 `<2022-08-30>`
